@@ -30,7 +30,7 @@ if(nbr == -2147483648)
     }
     if(nbr == 0)
     {
-        b[0] = 0;
+        b[0] = '0';
         return(b);
     }
     while(nbr)
