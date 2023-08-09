@@ -17,7 +17,7 @@ void    ft_putnbr(int nb)
     write(1, &"0123456789"[nb % 10], 1);
 }
 
-int	main(int ac, char *a*v)
+int	main(int ac, char *av)
 {
 	int	i = 1;
 	int nbr;
